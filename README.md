@@ -62,7 +62,7 @@ The dashboard uses the **Bike Sharing Dataset**:
     cd dashboard
     streamlit run dashboard.py
     ```
-Open the URL provided by Streamlit (usually http://localhost:8501) in your browser to interact with the dashboard.
+    Open the URL provided by Streamlit (usually http://localhost:8501) in your browser to interact with the dashboard.
 ---
 
 ## 🌐 Live Demo
