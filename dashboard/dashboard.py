@@ -15,7 +15,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for better styling
 st.markdown("""
 <style>
     .main-header {
@@ -47,16 +46,15 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Load and prepare data from CSV files
+# Load data
 @st.cache_data
 def load_data():
     """Load bike sharing data from CSV files"""
     try:
         # Load daily data
-        day_df = pd.read_csv('../dataset/day.csv')
-        hour_df = pd.read_csv('../dataset/hour.csv')
+        day_df = pd.read_csv('dataset/day.csv')
+        hour_df = pd.read_csv('dataset/hour.csv')
         
-        # Data cleaning and preprocessing (same as your analysis)
         # Rename columns for readability
         day_df = day_df.rename(columns={
             'dteday': 'date',

@@ -1,4 +1,4 @@
-# 🚴‍♂️ Bike Sharing Analytics Dashboard
+# 🚴‍♂️ Bike Sharing Analytics
 
 A fully interactive **Streamlit dashboard** for analyzing bike sharing data. This dashboard provides insights into seasonal trends, weather impact, user behavior, and peak hours, helping businesses optimize bike rental operations.
 
@@ -36,8 +36,6 @@ The dashboard uses the **Bike Sharing Dataset**:
 - `day.csv`: Daily bike rentals data  
 - `hour.csv`: Hourly bike rentals data  
 
-> Make sure the datasets are located in the `../dataset/` directory relative to the dashboard script.
-
 ---
 
 ## 🛠️ Installation
@@ -45,7 +43,7 @@ The dashboard uses the **Bike Sharing Dataset**:
 1. Clone the repository:
     ```bash
     git clone https://github.com/MIAbidin/bike-rent-analytics.git
-    cd bike-sharing-dashboard
+    cd bike-rent-analytics
     ```
 2. Create a virtual environment:
     ```bash
@@ -61,6 +59,14 @@ The dashboard uses the **Bike Sharing Dataset**:
     ```
 5. Run the dashboard using Streamlit:
     ```bash
+    cd dashboard
     streamlit run dashboard.py
     ```
 Open the URL provided by Streamlit (usually http://localhost:8501) in your browser to interact with the dashboard.
+---
+
+## 🌐 Live Demo
+
+The dashboard is deployed on **Streamlit Community Cloud** and can be accessed at:
+
+[🚴‍♂️ Bike Sharing Analytics Dashboard](https://muham-bike-share.streamlit.app)
