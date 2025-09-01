@@ -69,4 +69,4 @@ Open the URL provided by Streamlit (usually http://localhost:8501) in your brows
 
 The dashboard is deployed on **Streamlit Community Cloud** and can be accessed at:
 
-[🚴‍♂️ Bike Sharing Analytics Dashboard](https://muham-bike-share.streamlit.app)
+[🚴‍♂️ Bike Sharing Analytics Dashboard](https://bikeshare-analytics.streamlit.app)
